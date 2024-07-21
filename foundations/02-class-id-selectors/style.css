@@ -1,0 +1,22 @@
+.odd-elements{
+    background-color: #ebb7ae;
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+
+}
+
+
+#second-element{
+    color:#0000ff;
+    font-size: 36px;
+
+}
+
+.adjust-size{
+    font-size:24px;
+}
+
+
+#forth-element{
+    background-color: rgb(152, 240, 152);
+    font-weight: 700;
+}
