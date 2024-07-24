@@ -8,7 +8,8 @@ body {
   font-weight: 800;
 }
 
-.small-para {
+/* could've also moved .para above .small-para wothout adding grouping */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +18,8 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+/* Same thing - alternative is moving .confirm under .button without adding grouping selectors */
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,14 +31,18 @@ body {
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
+
+/* solution #1: div.text -> .text, solution 2: .child -> .text .child */
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+  
+}
+
+div.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
