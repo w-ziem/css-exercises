@@ -15,11 +15,17 @@ body {
   justify-content: center;
 }
 
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex; /* */
+  justify-content: space-evenly ; /* */
+  padding: 15px; /* */
+  gap:15px;
+  
 }
 
 .icon {
@@ -30,10 +36,29 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex; /* */
+  align-items: center; /* */
+  justify-content: center; /* */
+  flex-shrink: 0; /* */
+
 }
+
+.header{
+  font-weight: 700;   /* */
+  font-size: 1.125rem; /* */
+}
+
+.upper{
+  display: flex;/* */
+  align-items: baseline; /* */
+  justify-content: space-between; /* */
+
+}
+
+.text{
+  margin: 10px 0px 15px 0; /* */
+}
+
 
 .close-button {
   background: #eee;
@@ -43,9 +68,9 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
+  /* display: flex; 
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   border: 1px solid #eee;
   padding: 0;
 }
